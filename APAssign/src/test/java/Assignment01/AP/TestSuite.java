@@ -11,10 +11,12 @@ import org.junit.runners.Suite.SuiteClasses;
 @SuiteClasses({ArrayTest.class, DequeueTest.class,CircularLinkedListTest.class, LinkedListTest.class,
                QueueArrayTest.class, QueueArray2Test.class, QueueLinkedListTest.class, StackArrayTest.class,
                StackLinkedListTest.class})
-public class TestSuite {
+public class TestSuite {	
 	
 	/* 2 Test cases fail because of bugs in it that I have found and some 
     have exceptions also that I have explicitly mentioned else are pass*/
+	
+
 
 	
 
