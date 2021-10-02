@@ -19,7 +19,5 @@ public class TestSuite {
 	
 
 
-	/* 2 Test cases fail because of bugs in it that I have found and some 
-                       have exceptions also that I have explicitly mentioned else are pass*/
-
+	
 }
