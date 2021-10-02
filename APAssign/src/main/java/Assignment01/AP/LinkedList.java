@@ -133,7 +133,7 @@ public class LinkedList{
 	}
 
 	//main functon to run the program.
-	public static void main(String [] args){
+	/*public static void main(String [] args){
 		LinkedList list = new LinkedList();
 		list.pushFront(10);
 		list.pushBack(12);
@@ -154,5 +154,5 @@ public class LinkedList{
 
 		list.popBack();
 		list.display();
-	}
+	}*/
 }

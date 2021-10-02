@@ -71,7 +71,7 @@ public class Queue{
 	}
 	
 	//main function to run the program.
-	static public void main(String [] args){
+	/*static public void main(String [] args){
 		Queue queue = new Queue();
 		queue.enqueue(10);
 		queue.enqueue(20);
@@ -95,6 +95,6 @@ public class Queue{
 		queue.dequeue();
 		
 		queue.display();
-	}
+	}*/
 }
 	

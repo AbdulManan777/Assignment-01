@@ -3,13 +3,13 @@ package Assignment01.AP;
 //Program to implement Queue using array.
 
 import java.lang.Exception;
-public class Queue{
+public class QueueArray2{
 	int addPointer; //points to the position where new number is to be added.
 	int removePointer; //points tot position of the element, which is to be deleted. 
 	int sizeofQueue;   //number of elements in the queue.
 	int [] array;      //array to store values.
 
-	public Queue(int size){
+	public QueueArray2(int size){
 		addPointer=0;
 		removePointer=0;
 		sizeofQueue=0;

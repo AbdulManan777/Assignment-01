@@ -4,16 +4,16 @@ package Assignment01.AP;
 
 import java.util.*;
 public class Array{
-	static int [] array;  //array
+    static int [] array;  //array
 	static int size;      //size increases as elements are filled in the array.	
 	
-	public Array(){
+	public  Array(){
 		array=new int[100]; //length of array = 100
 		size=0;
 	}
 
 	//function to get values from the user.
-	static public void getValues(){
+	/*static public void getValues(){
 		Scanner input = new Scanner(System.in);
 		System.out.println("Enter the number of values to insert:");
 		int numofElem = input.nextInt(); //number of elements to insert.
@@ -21,7 +21,7 @@ public class Array{
 			System.out.println("Enter the num"+i+":");
 			insert(input.nextInt(),i);
 		}
-	} 
+	} */
 	
 	//function to insert elements in the array.
 	static public void insert(int number,int position){
@@ -91,22 +91,5 @@ public class Array{
 	}
 
 	//main function
-	public static void main(String [] args){
-		Array array = new Array(); //create an array.
-		array.getValues(); //get values from the user.
-		array.display();   //display the array.
-
-		array.insert(10,4);//insert num=10 at pos=4
-		array.display();   //display the array.
-
-		array.delete(3);   //delete num at pos=3 from the array.
-		array.display();   //display the array.
-
-		System.out.println(array.linearSearch(40)); //check 40 is present in the array using linearSearch.
-
-		array.bubbleSort();//sort the array.
-		array.display();   //display the array.
-
-		System.out.println(array.binarySearch(56,0,size)); //search for num=56 using Binary Search.
-	}
+	
 }

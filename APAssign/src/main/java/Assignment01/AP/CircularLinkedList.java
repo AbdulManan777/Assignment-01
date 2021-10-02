@@ -136,7 +136,7 @@ public class CircularLinkedList{
 	}
 
 	//main function to run the program.
-	public static void main(String [] args){
+	/*public static void main(String [] args){
 		CircularLinkedList list = new CircularLinkedList();
 		list.pushFront(10);
 		list.pushBack(12);
@@ -153,7 +153,7 @@ public class CircularLinkedList{
 		list.popFront();
 		list.popBack();
 		list.display();
-	}
+	}*/
 }
 
 		

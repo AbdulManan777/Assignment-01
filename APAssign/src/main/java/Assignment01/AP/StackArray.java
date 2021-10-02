@@ -2,12 +2,12 @@ package Assignment01.AP;
 
 //Program to implement Stack using an array.
 
-public class Stack{
+public class StackArray{
 	static int [] array; //array to store numbers.
 	static int size; //stores the number of elements in the array.
 	static int addPointer; //points to the position, where new number is to be added.
 
-	public Stack(){
+	public StackArray(){
 		array=new int[100]; //length = 100
 		size=0;  //initial size = 0.
 		addPointer=0; //initially points to position = 0;
@@ -60,10 +60,10 @@ public class Stack{
 	}
 	
 	//main function to run the program.
-	public static void main(String [] args){
+	/*public static void main(String [] args){
 		//create a Stack.
 		System.out.println("STACK");
-		Stack stack = new Stack();
+		StackArray stack = new StackArray();
 		
 		stack.push(10); //push num=10
 		stack.push(20); //push num=20
@@ -78,5 +78,5 @@ public class Stack{
 		stack.display();//display stack.
 		stack.pop();    //pop element 
 		stack.display();//display stack
-	}
+	}*/
 }
